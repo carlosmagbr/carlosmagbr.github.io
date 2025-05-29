@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- particles.js container -->
+    <div id="particles-js"></div> <!-- stats - count particles -->
+    <nav class="navbar-container">
+        <p>Carlos Magno</p>
+        <ul>
+            <li><a href="#start">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+        <ul class="web-links">
+            <a href=""> <i class="fa-brands fa-linkedin"></i> </a>
+            <a href=""> <i class="fa-brands fa-github"></i> </a>
+        </ul>
+    </nav>
+    <div class="navbar-mobile">
+        <i class="fa fa-bars" onclick="openMenu()"></i>
+        <div id="menu" class="navbar-mobile-container">
+            <p>Carlos Magno</p>
+            <ul>
+                <li><a href="#start" onclick="openMenu()">Início</a></li>
+                <li><a href="#about" onclick="openMenu()">Sobre</a></li>
+                <li><a href="#skills" onclick="openMenu()">Habilidades</a></li>
+                <li><a href="#projects" onclick="openMenu()">Projetos</a></li>
+                <li><a href="#contact" onclick="openMenu()">Contato</a></li>
+            </ul>
+            <ul class="web-links">
+                <a href=""> <i class="fa-brands fa-linkedin"></i> </a>
+                <a href=""> <i class="fa-brands fa-github"></i> </a>
+            </ul>
+        </div>
+    </div>
+    <section class="showcase">
+        <div class="showcase-container">
+            <h1>Olá, eu sou <br> Carlos Magno</h1>
+            <p>Desenvolvedor Web NextJs</p>
+            <div class="icons-showcase">
+                <a href=""> <i class="fa-brands fa-linkedin"></i> </a>
+                <a href=""> <i class="fa-brands fa-github"></i> </a>
+                <a href=""> <i class="fa-solid fa-envelope"></i> </a>
+            </div>
+        </div>
+        <div class="bg-showcase"></div>
+        <div class="arrow-down">
+            <img src="images/arrow-down-long-solid.svg" alt="">
+        </div>
+        <!-- <div class="custom-shape-divider-top-1748346311">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+            </svg>
+        </div> -->
+    </section>
+    <!-- About Me -->
+    <section id="portfolio" class="section-container portfolio">
+        <div class="section-content">
+            <h2 class="section-title">Portfólio</h2>
+            <div class="portfolio-container">
+                <div class="single-project" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="images/port-img.png" alt="">
+                    <h2>Projeto 1</h2>
+                    <div class="lenguages-project">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                </div>
+                <div class="single-project" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="images/port-img.png" alt="">
+                    <h2>Projeto 1</h2>
+                    <div class="lenguages-project">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-container">
+                <div class="single-project" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="images/port-img.png" alt="">
+                    <h2>Projeto 1</h2>
+                    <div class="lenguages-project">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                </div>
+                <div class="single-project" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="images/port-img.png" alt="">
+                    <h2>Projeto 1</h2>
+                    <div class="lenguages-project">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-container">
+                <div class="single-project" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="images/port-img.png" alt="">
+                    <h2>Projeto 1</h2>
+                    <div class="lenguages-project">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                </div>
+                <div class="single-project" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="images/port-img.png" alt="">
+                    <h2>Projeto 1</h2>
+                    <div class="lenguages-project">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills -->
+    <section id="skills" class="section-container">
+        <div class="section-content">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-content">
+                <div class="skill-item">
+                    <img src="images/html-icon.png" alt="HTML">
+                    <span>HTML</span>
+                    <p>Linguagem responsável por definir o esqueleto de sites. Possuo amplo domínio.</p>
+                </div>
+                <div class="skill-item">
+                    <img src="images/css-icon.png" alt="CSS">
+                    <span>CSS</span>
+                    <p>Linguagem responsável por definir o estilo dos sites. Possuo amplo domínio.</p>
+                </div>
+                <div class="skill-item">
+                    <img src="images/javascript-icon.png" alt="JavaScript">
+                    <span>JavaScript</span>
+                    <p>Linguagem responsável por adicionar lógica aos sites. Possuo amplo domínio</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about section-container">
+        <div class="section-content">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="sobre-container">
+                <div class="img-sobre">
+                    <img src="images/eu.png" alt="">
+                </div>
+                <div class="sobre-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nihil nisi nemo quod, mollitia
+                        nesciunt maxime corporis sunt fugiat dolorem totam, et reiciendis dolor! Nulla ipsa accusamus
+                        molestias iure in.
+                        Sunt obcaecati voluptatem dolorem eveniet illo, ipsum quas aliquam nemo similique corporis velit
+                        porro quia praesentium, perferendis delectus! Et, aspernatur perspiciatis nobis nesciunt a
+                        expedita dolor facilis obcaecati ad! Reiciendis?
+                        Molestiae illo dolor perspiciatis omnis velit id placeat repellendus modi adipisci itaque
+                        architecto corporis dolorum optio, ex deserunt quis. A ipsum, maiores ullam eveniet rerum est
+                        dignissimos odit fugiat laborum.
+                        Numquam veniam voluptatibus unde ullam ab! Aliquam praesentium sed, tempore, numquam a nulla
+                        nemo nam, laborum minima eveniet laudantium dolores. Rerum molestias possimus quos laboriosam,
+                        beatae reprehenderit omnis impedit numquam.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section-container" id="contact">
+        <div class="section-content">
+            <h2 class="section-title">Entre em contato</h2>
+            <form class="contact-form">
+                <input type="text" name="fullName" id="fullName" placeholder="Seu nome" class="form-input">
+                <input type="email" name="email" id="email" placeholder="Seu e-mail" class="form-input">
+                <textarea name="message" id="message" rows="5" placeholder="Sua mensagem" class="form-input"></textarea>
+                <input type="submit" value="enviar" class="form-button">
+            </form>
+        </div>
+    </section>
+    <footer class="footer-container">
+        <div class="social-items">
+            <a href=""> <i class="fa-solid fa-envelope fa-xl"></i> </a>
+            <a href=""> <i class="fa-brands fa-linkedin fa-xl"></i> </a>
+            <a href=""> <i class="fa-brands fa-instagram fa-xl"></i> </a>
+        </div>
+        <p>Copyright &copy; 2025 </p>
+    </footer>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="particle.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
